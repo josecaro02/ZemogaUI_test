@@ -1,0 +1,105 @@
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+.nav{
+    color: white;
+    padding-bottom: 1rem;
+    background: linear-gradient(180deg, rgba(76,76,78,0.3) 75%, rgba(254,255,255,0) 100%);
+
+}
+.navbar {
+    width: 100%;
+}
+.navbar-nav > li{
+    
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+.header {
+    background: url("../assets/bk_1.png");
+    background-size: cover;
+}
+
+.header .header-content{
+    padding-top: 8rem;
+    padding-bottom: 2.125rem;
+    text-align: left;
+}
+
+.header-box {
+    background-color: rgba(92, 91, 95, 0.3);
+    backdrop-filter: blur(15px);
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.header-box h1 {
+    margin-top: 0;
+    font-size: 4rem;
+}
+.header-box p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.header-box p, h5 {
+    font-weight: 300;
+}
+
+.headbox_opinion{
+    font-weight: 500;
+}
+.headbox_info {
+    border-bottom: 1px solid black;
+    border-color: white;
+    font-weight: 100;
+}
+
+.thumb-up {
+    background-color: rgba(28, 187, 180, 0.9);
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.thumb-down {
+    background-color: rgba(255, 173, 29, 0.8);
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.close-txt{
+    background-color: rgba(112,112,112,0.7);
+    text-align: right;
+    color: white;
+    vertical-align: middle;
+    padding-top: 1rem;
+}
+
+.close-days{
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    color: rgb(112, 112, 112);
+}
+
+.close-days p:nth-child(1){
+    font-weight: 500;
+    font-size: xx-large;
+}
+
+.close-days p:nth-child(2){
+    font-size: xx-large;
+    font-weight: 100;
+}
+
+.close-days p{
+    display: inline;
+}
