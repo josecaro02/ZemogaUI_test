@@ -14,15 +14,22 @@ body, html {
 }
 .navbar-nav > li{
     
-    padding-left:30px;
-    padding-right:30px;
+    padding-left:20px;
+    padding-right:20px;
+    font-weight: 100;
   }
 
 .header {
     background: url("../assets/bk_1.png");
     background-size: cover;
+    background-position: center;
 }
 
+@media (max-width: 768px){
+    .header{
+        background-attachment: fixed;
+    }
+}
 .header .header-content{
     padding-top: 8rem;
     padding-bottom: 2.125rem;
@@ -103,3 +110,4 @@ body, html {
 .close-days p{
     display: inline;
 }
+
