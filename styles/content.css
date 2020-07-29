@@ -1,0 +1,229 @@
+.rules{
+    margin-top: 2rem;
+    padding-top: 1rem;
+    background-color: rgba(235, 235, 235, 1);
+}
+
+.rules p{
+    margin-bottom: 0;
+}
+
+.rules h3{
+    font-weight: 570;
+}
+
+.title{
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.people {
+    color: white;
+    margin-top: 2rem;
+
+}
+
+.people row:nth-child(1){
+    margin-bottom: 2rem;
+}
+
+.layout{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.8603641285615808) 0%, rgba(255,255,255,0.1) 50%);
+    width: 100%;
+    height: 100%;
+}
+
+
+.kanye{
+    background: url("../assets/kanye.png");
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 1rem;
+    background-size: cover;
+    
+    
+}
+
+.kanye_1{
+    margin-bottom: 1rem;
+}
+
+.mark{
+    background: url("../assets/mark.png");
+    padding-right: 0;
+    padding-left: 0;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.cristina{
+    background: url("../assets/cristina.png");
+    padding-right: 0;
+    padding-left: 0;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.malala{
+    background: url("../assets/malala.png");
+    padding-right: 0;
+    padding-left: 0;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+@media (max-width: 768px){
+    .kanye, .mark, .cristina, .malala{
+        background-attachment: fixed;
+
+    }
+}
+.box-content{
+    padding-top: 24rem;
+}
+
+.box-content p{
+    padding-left: 2rem;
+}
+
+.box-content .thumb-person{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: rgba(28, 187, 180, 1);
+    
+       
+}
+
+.thumb-person img{
+    height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;    
+    
+}
+
+.layout p{
+    padding-left: 3.5rem;
+    padding-right: 4rem;
+    font-weight: 100;
+}
+
+.report .btn-card{
+    margin-left: 3.5rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid white;
+    color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.report p{
+    font-size: small;
+    text-align: right;
+    padding-right: 1.5rem;
+}
+
+.score{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: x-large;
+}
+.aprove{
+    background-color: rgba(28, 187, 180, 0.9);
+    padding-top: 0.5rem;
+
+}
+
+.aprove img {
+    margin-right: 1rem;
+    scale: 0.6; 
+    transform: translateY(-0.5rem) ;
+}
+
+.aprove p{
+    display: inline;
+    padding-left: 0;
+    font-weight: 300;
+}
+
+.disaprove{
+    background-color: rgba(255, 173, 29, 0.8);
+
+}
+
+.disaprove img {
+    scale: 0.6;
+}
+.disaprove p {
+    display: inline;
+    padding-left: 3.5rem;
+    padding-right: 0;
+
+}
+
+.submit{
+    margin-top: 2rem;
+    background: url("../assets/crowd_1.png");    
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.submit h3{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.submit button{
+    margin-top: 1.5rem;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+    color: black;
+    padding: 0.5rem 1rem;
+    margin-left: auto;
+
+}
+
+
+
+.layout-banner {
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 100%;
+    height: 100%;
+}
+
+.footer{
+    margin-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+}
+
+.footer a{
+    color: black;
+    padding-right: 1rem;
+}
+
+.fot-right{
+    float:right;
+}
+
+.fot-left{
+    float: left;
+}
+
+.facebook{
+    padding-right: 1rem;
+}
+.twitter{
+    padding-right: 1rem;
+}
